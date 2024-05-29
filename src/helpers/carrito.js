@@ -16,5 +16,6 @@
           console.log("el id es correcto")
         }
   }
+}
 
   module.exports={carritoHelper}
