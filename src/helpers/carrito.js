@@ -12,8 +12,10 @@
 
         if(existe){
             throw new Error('El id del producto ya existe')
+        }else{
+          console.log("el id es correcto")
         }
-    }
   }
+}
 
   module.exports={carritoHelper}
